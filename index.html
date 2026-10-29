@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de Matricula</title>
+    <title>Página de Matrícula</title>
     <style>
         * {
             box-sizing: border-box;
@@ -31,8 +31,24 @@
             position: fixed;
             inset: 0;
             z-index: -1;
-            background: rgba(0, 0, 0, 0.4);
+            background: rgba(0, 0, 0, 0.55);
             pointer-events: none;
+        }
+
+        main {
+            max-width: 760px;
+            margin: 3rem auto;
+            padding: 2rem;
+            border-radius: 12px;
+            background: rgba(0, 0, 0, 0.62);
+        }
+
+        h1, h2 {
+            color: #f3d88a;
+        }
+
+        p, li {
+            line-height: 1.7;
         }
     </style>
 </head>
@@ -43,13 +59,23 @@
     </video>
     <div class="sombra-fondo"></div>
 
-    <h1>Sistema de matricula - Error</h1>
-    <p>Estamos aprendiendo control de versiones.</p>
-    <h2>Tecnologías que aprenderemos</h2>
-    <ul>
-        <li>HTML</li>
-        <li>JavaScript</li>
-        <li>React</li>
-    </ul>
+    <main>
+        <h1>Sistema de Matrícula</h1>
+        <p>Bienvenido al proceso de matrícula. Aquí encontrarás información básica para iniciar tus estudios.</p>
+
+        <h2>Requisitos</h2>
+        <p>Para matricularte, prepara tus datos personales y los documentos solicitados por la institución.</p>
+
+        <h2>Programas de estudio</h2>
+        <p>Ofrecemos formación en áreas tecnológicas para ayudarte a desarrollar conocimientos y habilidades para el futuro.</p>
+        <ul>
+            <li>Desarrollo web</li>
+            <li>Computación e informática</li>
+            <li>Redes y soporte técnico</li>
+        </ul>
+
+        <h2>Información</h2>
+        <p>Consulta en la institución las fechas, los horarios y los requisitos vigentes para completar tu matrícula.</p>
+    </main>
 </body>
 </html>
